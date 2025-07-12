@@ -1,0 +1,7 @@
+<section class="hero-banner relative w-full bg-cover bg-center" style="background-image: url('{{ 'hero-banner.jpg' | asset_url }}');">
+  <div class="container text-center py-24 text-white">
+    <h1 class="text-4xl font-bold mb-4">Premium Mobile Accessories</h1>
+    <p class="text-lg mb-6">Fast delivery across the UK. Quality you can trust.</p>
+    <a href="/collections/all" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded">Shop Now</a>
+  </div>
+</section>

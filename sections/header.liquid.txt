@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="container flex justify-between items-center py-4">
+    <a href="/" class="logo">
+      <img src="{{ 'logo.png' | asset_url }}" alt="{{ shop.name }}" height="40">
+    </a>
+    <nav class="main-nav">
+      <ul class="flex space-x-4">
+        {% for link in linklists.main-menu.links %}
+          <li>
+            <a href="{{ link.url }}" class="nav-link">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="header-icons flex items-center space-x-4">
+      <a href="/search" class="search-icon">🔍</a>
+      <a href="/account" class="account-icon">👤</a>
+      <a href="/cart" class="cart-icon">🛒 ({{ cart.item_count }})</a>
+    </div>
+  </div>
+</header>

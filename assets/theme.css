@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-header {
+  background: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-header .logo img {
+  display: block;
+}
+
+.main-nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.main-nav a:hover {
+  color: #2563EB;
+}
+
+.header-icons a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero-banner {
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.9;
+}
